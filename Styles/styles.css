@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Electrolize', sans-serif;
+    color: white;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #121212;
+    justify-content: center;
+    align-items: center;
+}
+
+.section--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 50%;
+    background: #181818;
+    border: 3px solid #04C400;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.section--info{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.main-img{
+    height: 400px;
+    align-self: center;
+}
+
+.section--log{
+    background: rgba(98, 98, 98, 0.5);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group{
+    flex-direction: row;
+    margin: 20px;
+}
+
+.info{
+    flex-direction: column;
+    
+}
+
+.green{
+    color: #04C300;
+}
+
+.info h1{
+    padding: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.info h2{
+    padding: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section--new_account{
+    background: rgba(98, 98, 98, 0.5);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #04C400;
+    margin-top: 60px;
+}
+
+.section--new_account h1{
+    padding: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.profile-img{
+    display: flex;    
+    width: 105px;
+    height: 105px;
+    border-radius: 100%;
+    align-self: center;
+    margin: 15px;
+}
+
+.images{
+    display: flex;
+    margin-top: 50px;
+}
+
+.imgs{
+    width: 325px;
+}
+
+.title h1{
+    font-size: 80px;
+    color: #04C300;
+    margin: 20px;
+    text-align: center;
+}
+
+@media (max-width: 1660px) {
+    .section--wrapper {
+        width: 840px;
+    }
+
+    .main-img{
+        display: none
+    }
+}
